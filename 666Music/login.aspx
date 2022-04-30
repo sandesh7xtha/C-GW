@@ -3,7 +3,7 @@
 
 
 
-    <table style="width: 100%;">
+<%--    <table style="width: 100%;">
         <tr>
             <td>    <asp:Label ID="Label1" runat="server" Text="User Name"></asp:Label>
 </td>
@@ -21,6 +21,8 @@
             <td>    <asp:Button ID="loginTXT" runat="server" Text="Button" />
 </td>
         </tr>
-    </table>
+    </table>--%>
 
+
+    
 </asp:Content>
