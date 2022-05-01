@@ -11,7 +11,7 @@ namespace _666Music
 {
 
 
-    public partial class membershipCategory
+    public partial class castMember
     {
 
         /// <summary>
@@ -31,15 +31,6 @@ namespace _666Music
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox8;
-
-        /// <summary>
-        /// TextBox1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
 
         /// <summary>
         /// btnsave control.

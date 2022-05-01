@@ -1,10 +1,49 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="register.aspx.cs" Inherits="_666Music.register" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <asp:Label ID="Label1" runat="server" Text="user name"></asp:Label><br />
-    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox><br />
-    <asp:Label ID="Label2" runat="server" Text="password"></asp:Label><br />
-    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox><br />
-    <asp:Label ID="Label3" runat="server" Text="confirm password"></asp:Label><br />
-    <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox><br />
-    <asp:Button ID="Button1" runat="server" Text="Button" />
+
+
+    <table style="width: 100%;">
+        <tr>
+            <td>
+                <asp:Label ID="Label4" runat="server" Text="User Name"></asp:Label>
+            </td>
+            <td>
+                <asp:TextBox ID="userNameTXT" runat="server" class="form-control input-sm" placeholder="User Name"></asp:TextBox><br />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <asp:Label ID="Label7" runat="server" Text="User Type"></asp:Label>
+            </td>
+            <td>
+                <asp:TextBox ID="TextBox5" runat="server" class="form-control input-sm" placeholder="User Type "></asp:TextBox><br />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <asp:Label ID="Label5" runat="server" Text="Password"></asp:Label>
+            </td>
+            <td>
+                <asp:TextBox ID="PasswordTXT" runat="server" class="form-control input-sm" placeholder="Password "></asp:TextBox><br />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <asp:Label ID="Label6" runat="server" Text=" Confirm Password"></asp:Label>
+            </td>
+            <td>
+                <asp:TextBox ID="TextBox4" runat="server" class="form-control input-sm" placeholder=" Confirm Password "></asp:TextBox><br />
+            </td>
+        </tr>
+
+        <tr>
+
+            <td>
+                <asp:Button ID="loginTXT" runat="server" CssClass="btn btn-primary btn-lg" Text="Register" />
+            </td>
+        </tr>
+    </table>
+
+    </div>
 </asp:Content>

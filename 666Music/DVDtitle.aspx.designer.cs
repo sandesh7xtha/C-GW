@@ -11,7 +11,7 @@ namespace _666Music
 {
 
 
-    public partial class membershipCategory
+    public partial class DVDtitle
     {
 
         /// <summary>
@@ -24,6 +24,33 @@ namespace _666Music
         protected global::System.Web.UI.WebControls.TextBox txtStdname;
 
         /// <summary>
+        /// txtfname control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtfname;
+
+        /// <summary>
+        /// TextBox7 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox7;
+
+        /// <summary>
+        /// txtprogram control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtprogram;
+
+        /// <summary>
         /// TextBox8 control.
         /// </summary>
         /// <remarks>
@@ -33,6 +60,15 @@ namespace _666Music
         protected global::System.Web.UI.WebControls.TextBox TextBox8;
 
         /// <summary>
+        /// txtdob control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtdob;
+
+        /// <summary>
         /// TextBox1 control.
         /// </summary>
         /// <remarks>
@@ -40,6 +76,15 @@ namespace _666Music
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox1;
+
+        /// <summary>
+        /// TextBox2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox2;
 
         /// <summary>
         /// btnsave control.

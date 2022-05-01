@@ -33,13 +33,13 @@ namespace _666Music
         protected global::System.Web.UI.WebControls.TextBox txtfname;
 
         /// <summary>
-        /// txtdob control.
+        /// TextBox1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtdob;
+        protected global::System.Web.UI.WebControls.TextBox TextBox1;
 
         /// <summary>
         /// txtprogram control.
@@ -51,40 +51,31 @@ namespace _666Music
         protected global::System.Web.UI.WebControls.TextBox txtprogram;
 
         /// <summary>
-        /// txtregion control.
+        /// TextBox2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList txtregion;
+        protected global::System.Web.UI.WebControls.TextBox TextBox2;
 
         /// <summary>
-        /// txtaddress control.
+        /// txtdob control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtaddress;
+        protected global::System.Web.UI.WebControls.TextBox txtdob;
 
         /// <summary>
-        /// txtcell control.
+        /// TextBox3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtcell;
-
-        /// <summary>
-        /// txtgender control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList txtgender;
+        protected global::System.Web.UI.WebControls.TextBox TextBox3;
 
         /// <summary>
         /// btnsave control.

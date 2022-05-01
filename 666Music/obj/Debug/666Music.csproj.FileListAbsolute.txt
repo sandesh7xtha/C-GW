@@ -71,3 +71,4 @@ C:\Users\DELL LAPTOP\Desktop\666Music\666Music\obj\Debug\666Music.csproj.Assembl
 C:\Users\DELL LAPTOP\Desktop\666Music\666Music\obj\Debug\666Music.csproj.CoreCompileInputs.cache
 C:\Users\DELL LAPTOP\Desktop\666Music\666Music\obj\Debug\666Music.dll
 C:\Users\DELL LAPTOP\Desktop\666Music\666Music\obj\Debug\666Music.pdb
+C:\Users\DELL LAPTOP\Desktop\666Music\666Music\obj\Debug\666Music.csproj.CopyComplete

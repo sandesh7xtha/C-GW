@@ -1,10 +1,6 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="membershipCategory.aspx.cs" Inherits="_666Music.membershipCategory" %>
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="actor.aspx.cs" Inherits="_666Music.actor" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-
-
-
-    <!DOCTYPE html>
+       <!DOCTYPE html>
 
     <head>
         <title></title>
@@ -17,7 +13,7 @@
                         <section class="panel">
                             <header class="panel-heading">
                                 <div class="col-md-4 col-md-offset-4">
-                                    <h1 style="margin-bottom:3rem">Member Category</h1>
+                                    <h1>Actor</h1>
                                 </div>
 
                             </header>
@@ -29,10 +25,10 @@
                                             <table style="width: 100%;">
                                                 <tr>
                                                     <td style="width: 142px">
-                                                        <asp:Label runat="server"><b>Membership Category Number </b></asp:Label>
+                                                        <asp:Label runat="server"><b>Actor Number </b></asp:Label>
                                                     </td>
                                                     <td>
-                                                        <asp:TextBox runat="server" required="required" Enabled="True" name="BrandName" ID="txtStdname" class="form-control input-sm" placeholder="Member Number "></asp:TextBox>
+                                                        <asp:TextBox runat="server" required="required" Enabled="True" name="BrandName" ID="txtStdname" class="form-control input-sm" placeholder="Actor Number "></asp:TextBox>
                                                     </td>
                                                 </tr>
 
@@ -50,10 +46,10 @@
                                             <table style="width: 100%;">
                                                 <tr>
                                                     <td style="width: 141px">
-                                                        <asp:Label runat="server"><b>Membership Category Description</b></asp:Label>
+                                                        <asp:Label runat="server"><b> Actor Surname</b></asp:Label>
                                                     </td>
                                                     <td>
-                                                        <asp:TextBox runat="server" required="required" Enabled="True" name="BrandName" ID="TextBox8" class="form-control input-sm" placeholder=" Membership Category Description" Style="margin-left: 0"></asp:TextBox>
+                                                        <asp:TextBox runat="server" required="required" Enabled="True" name="BrandName" ID="TextBox8" class="form-control input-sm" placeholder="  Actor Surname" Style="margin-left: 0"></asp:TextBox>
                                                     </td>
                                                 </tr>
 
@@ -71,10 +67,10 @@
                                             <table style="width: 100%;">
                                                 <tr>
                                                     <td style="width: 141px">
-                                                        <asp:Label runat="server"><b>Membership Category Total Loan</b></asp:Label>
+                                                        <asp:Label runat="server"><b> Actor First Name</b></asp:Label>
                                                     </td>
                                                     <td>
-                                                        <asp:TextBox runat="server" required="required" Enabled="True" name="BrandName" ID="TextBox1" class="form-control input-sm" placeholder=" Membership Category Total Loan" Style="margin-left: 0"></asp:TextBox>
+                                                        <asp:TextBox runat="server" required="required" Enabled="True" name="BrandName" ID="TextBox1" class="form-control input-sm" placeholder="Actor First Name" Style="margin-left: 0"></asp:TextBox>
                                                     </td>
                                                 </tr>
 
@@ -94,7 +90,7 @@
                                 <div class="row">
                                     <div class="col-md-4 col-md-offset-4">
                                         <div class="form-group">
-                                                      <table style="width: 49%;">
+                                                        <table style="width: 49%;">
                                                 <tr>
                                                     <td style="width: 141px">
                                                         <asp:Button Text="Save" ID="btnsave" CssClass="btn btn-success btn-lg" Width="110px" style="margin-right:1rem" runat="server" />

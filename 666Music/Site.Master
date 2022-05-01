@@ -46,13 +46,21 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/">Application name</a>
+<%--                    <a class="navbar-brand" runat="server" href="~/">Application name</a>--%>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a runat="server" href="login.aspx">AAAA</a></li>
-                        <li><a runat="server" href="~/About">About</a></li>
-                        <li><a runat="server" href="~/Contact">Contact</a></li>
+                        <li><a runat="server" href="actor.aspx">Actor</a></li>
+                        <li><a runat="server" href="castMember.aspx">Cast Member</a></li>
+                        <li><a runat="server" href="DVDtitle.aspx">DVD Title</a></li>
+                        <li><a runat="server" href="DVDCopy.aspx">DVD Copy</a></li>
+                        <li><a runat="server" href="Studio.aspx">Studio</a></li>
+                        <li><a runat="server" href="Producer.aspx">Producer</a></li>
+                        <li><a runat="server" href="loan.aspx">Load</a></li>
+                        <li><a runat="server" href="Load Type.aspx">Load Type</a></li>
+                        <li><a runat="server" href="member.aspx">Member</a></li>
+                        <li><a runat="server" href="membershipCategory.aspx">Membership Category</a></li>
+                        <li><a runat="server" href="DVDCategory.aspx">DVD Category</a></li>
                     </ul>
                 </div>
             </div>

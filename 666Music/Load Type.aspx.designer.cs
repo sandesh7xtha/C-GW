@@ -11,7 +11,7 @@ namespace _666Music
 {
 
 
-    public partial class membershipCategory
+    public partial class Load_Type
     {
 
         /// <summary>
